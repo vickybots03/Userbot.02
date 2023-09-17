@@ -1,0 +1,35 @@
+{
+    "name": "◉ 𝐙𝐄𝐇𝐀𝐑 𝐗 𝐒𝐏𝐀𝐌 ◉ 𝕌𝕊𝔼ℝ𝔹𝕆𝕋",
+    "logo": "https://te.legra.ph/file/719356976c0a6f14f6ada.jpg",
+    "description": "The first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/itszshivam/OP-Userbot2",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION1": {
+            "description": "fill with the telethon session string",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "Fill there an mongo database from mongodb.com",
+            "required": true,
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "Fill there /id",
+            "required": true,
+            "value": "6592612381 1234567890"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd",
+            "required": true,
+            "value": "1234567890"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }
